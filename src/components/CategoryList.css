@@ -1,0 +1,18 @@
+.category-list {
+  width: 100%;
+}
+
+.category-list-header {
+  color: white;
+}
+
+.category {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 10px;
+  text-align: left;
+}

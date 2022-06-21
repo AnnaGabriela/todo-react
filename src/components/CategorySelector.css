@@ -1,0 +1,40 @@
+.category-selector {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.category-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  border-radius: 50px;
+  font-weight: 200;
+  background-color: #323741;
+  color: white;
+  font-size: 0.8em;
+}
+
+.category-item:hover {
+  cursor: pointer;
+}
+
+.category-item-selected {
+  background-color: white;
+  color: #323741;
+}
+
+@media screen and (min-width: 310px) {
+	.category-item {
+    width: 60px;
+		padding: 8px 5px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+	.category-item {
+    width: 90px;
+		padding: 8px;
+	}
+}
